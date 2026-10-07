@@ -4,3 +4,6 @@ class InvalidRatingError(Exception):
 
 class InvalidStatusError(Exception):
     pass
+
+class LibraryImportError(Exception):
+    pass

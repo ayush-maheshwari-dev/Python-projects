@@ -42,3 +42,6 @@ class Book:
             )
 
         self._status = status
+    
+    def __str__(self):
+        return f"{self._title} by {self._author} ({self._pages}) - {self.rating}⭐ - {self.status}"
